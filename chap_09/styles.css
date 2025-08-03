@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #74b9ff, #a29bfe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #0984e3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background: #74b9ff;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+
+/* Styles for tablets (screen width 768px to 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        margin: 20px auto;
+        padding: 15px;
+    }
+    .links a {
+        padding: 8px 15px;
+    }
+}
+
+/* Styles for mobile devices (screen width less than 768px) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    .container {
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .links a {
+        display: block;
+        margin: 5px auto;
+        padding: 10px;
+        width: 100%; /* Full width for buttons on small screens */
+    }
+    footer {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
